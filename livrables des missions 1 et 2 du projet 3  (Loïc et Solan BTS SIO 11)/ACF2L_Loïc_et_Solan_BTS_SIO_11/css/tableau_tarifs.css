@@ -1,0 +1,41 @@
+.tableau-style {
+    border-collapse: collapse;
+    min-width: 400px;
+    width: auto;
+    box-shadow: 0 5px 50px rgba(0,0,0,0,15);
+    cursor: pointer;
+    margin: 100px auto;
+    border: 2px solid black;
+}
+.centre {
+    text-align: center;
+}
+thead tr {
+
+    background-color: #00ccff;
+    text-align: center;
+}
+tbody tr, td, th{
+    border: 1px solid #ddd;
+}
+tbody tr:nth-child(event) {
+    background-color: #f3f3f3;
+}
+tbody tr:last-of-type {
+    border-bottom: 1px solid black;
+}
+
+.lienversindex
+{
+    background-color: blue;
+    color: white;
+    font-size: 13px;
+    text-decoration:none;
+}
+
+.lienversindex:hover{
+background-color: white;
+color: blue;
+
+}
+

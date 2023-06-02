@@ -1,0 +1,167 @@
+.paragraphe1{
+font-size : 100 px;
+color : red
+}
+
+.meteo {
+
+background-color: white;
+
+}
+
+
+.diapolieu{
+	width: 255px;
+overflow: hidden;
+margin: auto;
+border: 6px solid black;
+
+}
+.diaporamas{
+	width: calc(255px *5);
+	animation: glisse 40s infinite;
+}
+
+
+
+.diaporama-photos{
+
+width: 255px;
+height: 198px;
+float: left;
+
+}
+@keyframes glisse{
+
+0%{
+	transform: translateX(0);
+}
+
+20%{
+	transform: translateX(-255px);
+}
+
+40%{
+
+	transform: translateX(-510px);
+
+}
+
+60%{
+	transform: translateX(-765px);
+
+}
+
+80%{
+
+	transform: translateX(-1020px);
+}
+
+
+}
+
+
+#images {
+
+width: 255px;
+height: 198px;
+padding-right: 60%;
+
+
+}
+.image-1, .image-2, .image-3, .image-4{
+
+position: absolute;
+border-radius: 50px;
+border: 6px solid black;
+animation-duration: 15s;
+animation-iteration-count: infinite;
+
+
+
+}
+
+
+
+.image-1{
+
+  animation-name: image1;
+
+
+}
+
+
+.image-2{
+
+  animation-name: image2;
+
+
+}
+
+
+.image-3{
+
+  animation-name: image3;
+
+
+}
+
+
+.image-4{
+
+  animation-name: image4;
+
+
+}
+
+
+@keyframes image1{
+
+ 0% {opacity: 1;}
+25% {opacity: 0;}
+50% {opacity: 0;}
+75% {opacity: 0;}
+100%{opacity: 1;}
+
+
+}
+
+
+@keyframes image2{
+
+ 0% {opacity: 0;}
+25% {opacity: 1;}
+50% {opacity: 0;}
+75% {opacity: 0;}
+100%{opacity: 0;}
+
+
+}
+
+@keyframes image3{
+
+ 0% {opacity: 0;}
+25% {opacity: 0;}
+50% {opacity: 1;}
+75% {opacity: 0;}
+100%{opacity: 0;}
+
+
+}
+
+@keyframes image4{
+
+ 0% {opacity: 0;}
+25% {opacity: 0;}
+50% {opacity: 0;}
+75% {opacity: 1;}
+100%{opacity: 0;}
+
+
+}
+.navbar-brand{
+
+width: 300px;
+height: 300px;
+
+}

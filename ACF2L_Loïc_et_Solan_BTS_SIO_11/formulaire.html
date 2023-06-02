@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<section id="content">
+    <article>
+        <head>
+            <link rel="shortcut icon" type="image/ico" href="images\formulaire.ico">
+              <legend>Formulaire : </legend>
+              <link rel="stylesheet" href="css/formulaire.css">
+              <title>Formulaire</title>
+        </head>
+        <body>
+            <script src="css/formulaire.css"></script>
+        </body>
+        <form name="myForm" action="" method="post" onsubmit="return f_myForm()">
+            <label for="titre1">Mr :</label>
+              <input type="radio" name="Titre" id="titre1" value="Mr"/>
+                    <label for="titre2">Mme :</label>
+              <input type="radio" name="Titre" id="titre2" value="Mme"/>
+              <br/>  
+            <br/>
+            <label for="nom">Nom :</label>
+            <input type="text" name="Nom" id="nom" maxlength="30" />
+            <br/>
+            <label for="prenom">Prénom :</label>
+            <input type="text" name="Prenom" id="prenom" maxlength="30" />
+    <div>
+    <label for="date-de-naissance">Votre date de naissance</label>
+    <input type="text" id="date-de-naissance" name="date-de-naissance" maxlength="30"/>
+     </div>
+            <br/>
+            <label for="adresse">Adresse :</label>
+            <input type="text" name="Adresse" id="adresse" maxlength="30" />
+            <br/>
+            <label for="cp">CP :</label>
+            <input type="number" name="CP" id="cp" maxlength="5" />
+            <br/>
+            <label for="ville">Ville :</label>
+            <input type="text" name="Ville" id="ville" maxlength="30" />
+            <br/>
+        <label for="statu">Quel est votre situation ?</label>
+              <select size="1" name="Status" id="status" maxlength="30">
+                <optgroup label="Situation">
+                    <option value="0">...</option>
+                    <option value="eleves">Célibataire</option>
+                    <option value="profs">Marié</option>
+                    <option value="tuteurs">Union libre</option>
+                    <option value="staffs">PACS</option>
+                    <option value="admin">Divorcé</option>
+                </optgroup>
+            </select>
+     <label for="email">Email :</label>
+            <input type="email" name="Email" id="email" placeholder="xyz@xyz.xyz" maxlength="30" />
+        <br/>
+            <label for="mobile">Mobile :</label>
+            <input type="number" name="Mobile" id="mobile" maxlength="10" />				
+            <br/>
+            <div id="esp_submit_reset">
+            <input type="submit" name="send_connexion" value="envoyer mon formulaire" />
+            </div>
+        </form>
+        <footer>
+        </footer>
+    </article>
+</section>
